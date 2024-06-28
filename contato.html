@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - EROKILLER</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/logo.jpg" alt="EROKILLER Logo">
+            <span>EROKILLER</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="https://www.instagram.com/erokiller123?igsh=MXVuZTlxOHY2bHV6dQ==" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contato</h1>
+        <p>Entre em contato conosco para mais informações. Estamos aqui para ajudar!</p>
+        
+        <div class="contact-details">
+            <div class="contact-item">
+                <h2>Nosso Endereço</h2>
+                <p>Rua Coronel Souza 143, Loja B<br>Bicas, MG</p>
+            </div>
+            <div class="contact-item">
+                <h2>Nosso Horário</h2>
+                <p>Segunda a Sexta: 9:00 - 19:00<br>Sábado: 8:30 - 15:00</p>
+            </div>
+            <div class="contact-item">
+                <h2>Redes Sociais</h2>
+                <p>
+                    <a href="https://wa.me/5532984235630" class="btn message">WhatsApp</a><br>
+                    <a href="https://www.instagram.com/erokiller123?igsh=MXVuZTlxOHY2bHV6dQ=="class="btn message">Instagram</a>
+                </p>
+            </div>
+        </div>
+
+        <form action="enviar-mensagem.html" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EROKILLER. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
